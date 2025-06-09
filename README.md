@@ -1,31 +1,64 @@
-# React & Tailwind CSS Starter Pack
+# 🌤️ Weather Application
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+A modern weather application built with React and Tailwind CSS that allows users to check current weather conditions and save their search history.
 
-## Usage
+## ✨ Features
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+- 🌡️ Real-time weather data
+- 📝 Search history tracking
+- 🎨 Modern and responsive UI
+- 🐳 Docker support for easy deployment
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+## 📋 Prerequisites
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+- ⚡ Node.js (v14 or higher)
+- 🐳 Docker and Docker Compose
+- 📦 npm or yarn package manager
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+## 🚀 Getting Started
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+### 🐳 Using Docker (Recommended)
 
-## Contributing
+1. Clone the repository:
+   ```sh
+   git clone <your-repository-url>
+   cd weather-frontend
+   ```
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+2. Start the application using Docker Compose:
+   ```sh
+   docker-compose up -d --build
+   ```
+
+3. The application will be available at `http://localhost:3000`
+
+### 💻 Manual Setup
+
+1. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+2. Start the development server:
+   ```sh
+   npm run start
+   ```
+
+3. Open `http://localhost:3000` in your browser
+
+## 📁 Project Structure
+
+- 📂 `/src` - Source code
+- 📂 `/public` - Static assets
+- 🐳 `docker-compose.yml` - Docker configuration
+- 🐳 `Dockerfile` - Docker build instructions
+
+## 🛠️ Technologies Used
+
+- ⚛️ React
+- 🎨 Tailwind CSS
+- 🐳 Docker
+- ⚡ Node.js
+
+
+
